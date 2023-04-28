@@ -9,6 +9,6 @@ I used this along with iterating through each element of the vector of customers
 <li>myfun: a function for performing any specific task.</li>
 </ul>
 <h3>Example:</h3>
-<code> for(auto customer: accounts){</code>
-            <code>int wealth =accumulate(customer.begin(),customer.end(),0);</code>      
-            <code>if(wealth>wealthiest) wealthiest = wealth;}</code>
+<code> for(auto customer: accounts){</code><br>
+            <code>int wealth =accumulate(customer.begin(),customer.end(),0);</code><br>    
+            <code>if(wealth>wealthiest) wealthiest = wealth;}</code><br>
