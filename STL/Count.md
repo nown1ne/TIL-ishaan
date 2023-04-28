@@ -3,7 +3,7 @@ Returns the number of elements in the range [first, last) that compare equal to 
 <br>
 If the val is not found at any occurrence then it returns 0(Integer value).
 <h3>Syntax</h3>
-int count(Iterator first, Iterator last, T &val) 
+<code>int count(Iterator first, Iterator last, T &val)</code>
 <ul>
 <li>first, last : Input iterators to the initial and final positions of the sequence of elements.</li>
 <li>val : Value to match</li>
