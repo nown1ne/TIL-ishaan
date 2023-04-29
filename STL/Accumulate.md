@@ -1,6 +1,6 @@
 The accumulate function adds up every element of a vector when used from beginning to end.
 I used this along with iterating through each element of the vector of customers.
-<h3>Syntax:</h3>
+<h3>Syntax: </h3>
 <code>accumulate(first, last, sum, myfun);</code>
 <p>Parameters:</p>
 <ul>
