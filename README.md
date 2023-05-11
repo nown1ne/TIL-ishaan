@@ -1,2 +1,2 @@
-# Notes
-Notes related to CC, DSA, DBMS. Basic Questions and Syntax
+# Today I Learned
+A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies.
