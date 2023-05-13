@@ -6,6 +6,7 @@
 2.  Place it in its corresponding position in the sorted part and shift the remaining elements accordingly (using an inner loop and swapping).
 3.  The "inner while loop" basically shifts the elements using swapping.
 
+## Code:
 ```c++
 void insertion_sort(int arr[], int n) {
     for (int i = 0; i <= n - 1; i++) {
