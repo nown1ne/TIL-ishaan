@@ -1,4 +1,6 @@
 # Reverse a number
+
+**Problem Statement:** Given an integer N , write program to Reverse a Number.
 ```reason
 int num = N;
 int reverse = 0;
@@ -12,3 +14,9 @@ int reverse = 0;
 
 ### Space Optimisation: O(n)
 ### Time Optimization: O(1)
+
+## Questions Extension -> Check if palindrome
+```c++
+if(num == reversenum) return true;
+else return false;
+```
