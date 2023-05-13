@@ -19,7 +19,7 @@ The algorithm steps are as follows:
 **Iteration 2**
 ![pasted image 0](https://github.com/IshaanAdarsh/TIL/assets/100434702/10ac7483-9f79-41ea-ad95-b69d7cd73066)
 
-
+## Code:
 ```c++
 void bubble_sort(int arr[], int n) {
     // bubble sort
