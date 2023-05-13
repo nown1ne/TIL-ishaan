@@ -1,6 +1,6 @@
 # Bubble Sort:
 
-**Approach:**
+## Iterative Approach:
 
 The algorithm steps are as follows:
 
@@ -19,7 +19,7 @@ The algorithm steps are as follows:
 **Iteration 2**
 ![pasted image 0](https://github.com/IshaanAdarsh/TIL/assets/100434702/10ac7483-9f79-41ea-ad95-b69d7cd73066)
 
-## Code:
+## Iterative Code:
 ```c++
 void bubble_sort(int arr[], int n) {
     // bubble sort
@@ -43,3 +43,43 @@ void bubble_sort(int arr[], int n) {
 
 - **Time complexity: O(N2)**
 - **Space Complexity: O(1)**
+
+
+## Recursive Approach:
+
+In the iterative method, we usually select a range(using a loop), and for each range, we repeatedly swap(using another loop) the adjacent elements(if arr[i] > arr[i+1]) until the maximum element in that range reaches the end.
+
+The flow of the algorithm goes like this: in the first iteration, we select the range 0 to n-1 and swap adjacent elements(if arr[i] > arr[i+1]) until the maximum element reaches the (n-1)th index. Similarly, in the second iteration, the second maximum element reaches the (n-2)th index. So, the sorting basically occurs in the backward direction.  After (n-1) such iterations we get the sorted array.
+
+Now, in the recursive approach, we will just select the range recursively instead of using any loop. This is the only change we will do the recursive bubble sort algorithm and the rest of the part will be completely the same as it was in the case of iterative bubble sort.
+
+The approach will be the following:
+
+1.  First, call the recursive function with the given array and the range of n(size of the array).
+2.  Inside that recursive function, repeatedly swap 2 adjacent elements if arr[j] > arr[j+1].\
+    Here, the maximum element of the unsorted array reaches the end of the unsorted array after each recursive call.
+3.  Each time after step 2, call the recursion again decreasing the range by 1.
+4.  The recursion will continue until the range(i.e. the size) of the array is reduced to 1.\
+    **Base Case:** if(n == 1) return;
+    
+## Recursive Code:
+```c++
+void bubble_sort(int arr[], int n) {
+    // Base Case: range == 1.
+    if (n == 1) return;
+
+    for (int j = 0; j <= n - 2; j++) {
+        if (arr[j] > arr[j + 1]) {
+            int temp = arr[j + 1];
+            arr[j + 1] = arr[j];
+            arr[j] = temp;
+        }
+    }
+
+    //Range reduced after recursion:
+    bubble_sort(arr, n - 1);
+}
+```
+- **Time complexity: O(N2)**
+- **Space Complexity: O(N)** (auxiliary stack space)
+
