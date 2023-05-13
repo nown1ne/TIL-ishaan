@@ -71,4 +71,4 @@ void insertion_sort(int arr[], int i, int n) {
 ```
 
 - **Time complexity: O(N2)**
-- **Space Complexity: O(N)**
+- **Space Complexity: O(N)[auxiliary stack space]**
