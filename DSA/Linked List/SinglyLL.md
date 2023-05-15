@@ -36,6 +36,25 @@ class Node {
 
 };
 ```
+## Print the Linked List:
+
+Print the LL by simple linear Traversal
+
+```c++
+void print(Node* &head) {
+    if(head == NULL) {
+        cout << "List is empty "<< endl;
+        return ;
+    }
+    
+    Node* temp = head;
+    while(temp != NULL ) {
+        cout << temp -> data << " ";
+        temp = temp -> next;
+    }
+    cout << endl;
+}
+```
 
 ## InsertAtHead:
 
