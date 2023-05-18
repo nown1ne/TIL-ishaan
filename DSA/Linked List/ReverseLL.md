@@ -43,7 +43,47 @@ Node* reverseLinkedList(Node *head)
 - **Time Complexity:** O(N)
 - **Space Complexity:** O(1)
 
-## Approach 2 (Recursive Solution):
+## Approach 2 (Tail Recursive Method):
+Follow the steps below to solve the problem:
+
+-   First update next with next node of current i.e. **next = current->next**
+-   Now make a reverse link from current node to previous node i.e. curr->next = prev
+-   If the visited node is the last node then just make a reverse link from the current node to previous node and update head.
+
+```c++
+viod reverse(Node* &head, Node* curr, Node* prev)
+{
+    //base case
+    if(curr==NULL){
+        //point head to prev and return
+        head = prev;
+        return;
+    }
+    
+    //Move the pointer forward
+    Node* forward = curr -> next;
+    
+    //call the function recursively
+    reverse(head,forward,curr);
+    
+    //Solves the current case (reverses the LL)
+    curr -> next = prev;
+}
+
+Node*reverseLinkedList(Node *head)
+{
+    Node* curr = head;
+    Node* prev = NULL;
+    reverse(head,curr,prev);
+    return head;
+}
+```
+
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(N)
+
+## Approach 3 (Recursive Method):
+
 Follow the steps below to solve the problem:
 
 -   Divide the list in two parts -- first node and rest of the linked list.
@@ -54,7 +94,21 @@ Follow the steps below to solve the problem:
 ![Linked-List-Rverse](https://github.com/IshaanAdarsh/TIL/assets/100434702/cc6e605b-6aff-4641-b91f-17d6d149432f)
 
 ```c++
-
+Node* reverse(Node* head)
+    {
+        if (head == NULL || head->next == NULL)
+            return head;
+ 
+        //reverse the rest list and put the first element at the end
+        Node* rest = reverse(head->next);
+        head->next->next = head;
+ 
+        //tricky step -- see the diagram
+        head->next = NULL;
+ 
+        // fix the head pointer 
+        return rest;
+    }
 ```
 
 - **Time Complexity:** O(N)
