@@ -50,6 +50,8 @@ Follow the steps below to solve the problem:
 -   Now make a reverse link from current node to previous node i.e. curr->next = prev
 -   If the visited node is the last node then just make a reverse link from the current node to previous node and update head.
 
+### CODE:
+
 ```c++
 viod reverse(Node* &head, Node* curr, Node* prev)
 {
@@ -93,6 +95,8 @@ Follow the steps below to solve the problem:
 
 ![Linked-List-Rverse](https://github.com/IshaanAdarsh/TIL/assets/100434702/cc6e605b-6aff-4641-b91f-17d6d149432f)
 
+### CODE:
+
 ```c++
 Node* reverse(Node* head)
     {
@@ -122,6 +126,8 @@ Node* reverse(Node* head)
 -   Return *prev *( *prev *becomes the new head of the list)
 
 ![ReverseALinkedListInAGroupofGivenSize1](https://github.com/IshaanAdarsh/TIL/assets/100434702/771bcd01-9308-4b9d-9b7f-ebb650e62259)
+
+### CODE:
 
 ```c++
 Node* reverse(Node* head, int k)
@@ -175,6 +181,7 @@ Node* reverse(Node* head, int k)
 8. Decrement count after for loop by k count -= k, to determine the length of the remaining linked list.
 9. Change prev position to curr, prev = curr.
 
+### CODE:
 
 ```c++
 Node* reverse(Node* head, int k)
