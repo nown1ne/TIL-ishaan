@@ -129,3 +129,44 @@ void deleteNode(Node* &tail, int value) {
     }
 }
 ```
+
+## ifCircular:
+**Problem** : Checks of the linked list is circular LL or not.
+
+### Approach 1:
+
+-   Declare a Node pointer node and initialize it to the head's next
+-   Move node pointer to the next node, while the node is not equal to nullptr and node is not equal to the head
+-   After coming out of the loop, check if the node is equal to head then return true, else return false
+
+### CODE:
+
+```c++
+bool isCircularList(Node* head) {
+
+    //empty list
+    if(head == NULL) {
+        return true;
+    }
+
+    Node* temp = head -> next;
+    while(temp != NULL && temp != head ) {
+        temp = temp -> next;
+    }
+
+    if(temp == head ) {
+        return true;
+    }
+
+    return false;
+
+}
+```
+
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(1)
+
+### Approach 2 (Using Map) {Shite way}
+
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(N)
