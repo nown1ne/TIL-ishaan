@@ -1,4 +1,5 @@
 # List:
+- Like Vectors, can be modified
 ### Printing Specific Values:
 ```python
 courses = ['History', 'Math', 'Physics', 'CompSci']
@@ -105,5 +106,114 @@ print(courses.index('CompSci'))     # 3
 print('Math' in courses)            # True
 print('Art' in courses)             # False
 ```
+### Looping:
+```python
+courses = ['History', 'Math', 'Physics', 'CompSci']
+
+#basic for loop
+for item in courses               # History
+  print(item)                     # Math
+                                  # Physics
+                                  # CompSci
+
+# Printing Index plus courses with specific start value (if no value specified start = 0)
+for index, course in enumerate(course, start = 1)
+  print(index, course)            # 1 History
+                                  # 2 Math
+                                  # 3 Physics
+                                  # 4 CompSci
+```
+
+### List to Str(Join Function) and Str to List(Splitting Function):
+Converting a List to a String by joining the List Elements using the String(,)
+Converting
+```python
+courses = ['History', 'Math', 'Physics', 'CompSci']
+
+# List to Str
+courses_str = ', '.join(courses)
+print(courses_str)                  # History, Math, Physics, CompSci
+
+# Str to List
+new_list = courses_str.split(', ')
+print(new_list)                     # ['History', 'Math', 'Physics', 'CompSci']
+```
+
+# Tuples:
+- Like arrays, can't be modified
+
+```python
+# Mutable
+list_1 = ['History', 'Math', 'Physics', 'CompSci']
+list_2 = list_1
+
+print(list_1)       # ['History', 'Math', 'Physics', 'CompSci']
+print(list_2)       # ['History', 'Math', 'Physics', 'CompSci']
+
+list_1[0] = 'Art'
+
+#Can't change the individual list (problem with lists)
+print(list_1)       # ['Art', 'Math', 'Physics', 'CompSci']
+print(list_2)       # ['Art', 'Math', 'Physics', 'CompSci']
 
 
+# Immutable
+tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
+tuple_2 = tuple_1
+
+print(tuple_1)      # ('History', 'Math', 'Physics', 'CompSci')
+print(tuple_2)      # ('History', 'Math', 'Physics', 'CompSci')
+
+tuple_1[0] = 'Art'
+
+# ERROR (tuple does'nt support item assignment)
+print(tuple_1)      
+print(tuple_2)      
+
+```
+
+# Set:
+- Values that are unordered and non-duplicates
+
+```python
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+print(cs_courses)             # No partiular Order of elements
+
+```
+
+### In function:
+Sets are optimized for this operation
+```python
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+print('Math' in cs_courses)             # True
+```
+
+### Intersection, difference and Union Method:
+To find common elements between 2 sets
+```python
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+art_courses = {'History', 'Art', 'Home_Science', 'CompSci'}
+# Intersection
+print(cs_courses.intersection(art_courses))             # {'History', 'CompSci'}
+
+# Difference
+print(cs_courses.difference(art_courses))               # {'Physics', 'Math'}
+
+# Union
+print(cs_courses.union(art_courses))               # {'History', 'Math', 'Physics', 'CompSci', 'Art', 'Home_Science'}
+```
+
+## Empty Values:
+```python
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {} # This isn't right! It's a dict
+empty_set = set()
+```
