@@ -245,4 +245,29 @@ O/P
 ```
 
 ## Mathematics:
+```python
+a = np.array([1,2,3,4])
+print(a)                        # [1 2 3 4]
 
+# Sum
+a + 2                           # array([3,  4,  5,  6])
+
+# Difference
+a - 2                           # array([-1,  0,  1,  2])
+
+# Multiplication
+a * 2                           # array([2, 4, 6, 8])
+
+# Division
+a/2                             # array([0.5, 1. , 1.5, 2. ])
+
+# Add 2 arrays
+b = np.array([1,0,1,0])
+a + b                           # array([2, 2, 4, 4])
+
+# Power
+a ** 2                          # array([ 1,  4,  9, 16], dtype=int32)
+
+# Trig
+np.cos(a)                       # array([ 0.54030231, -0.41614684, -0.9899925 , -0.65364362])
+```
