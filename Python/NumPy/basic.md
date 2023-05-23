@@ -8,6 +8,7 @@ Its a multidimensional array library which contains fixed type elements, its use
       - SIMD(Single Instruction and Multiple Data Stream) Vector Processing
       - Effetive Cache Utilisation 
 
+### [NumPy Notebook](https://www.kaggle.com/code/orhansertkaya/numpy-tutorial-for-beginners#Computation-on-NumPy-Arrays:-Universal-Functions)
 ## Load in NumPy:
 ```python
 import numpy as np
