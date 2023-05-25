@@ -1,3 +1,5 @@
+# [Data Types in Statistics](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee)
+
 Nominal Data
 ============
 
