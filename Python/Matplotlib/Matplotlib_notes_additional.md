@@ -3,5 +3,4 @@
 
 ## [GFG Matplotlib](https://www.geeksforgeeks.org/matplotlib-tutorial/)
 
-## Plots:
 
