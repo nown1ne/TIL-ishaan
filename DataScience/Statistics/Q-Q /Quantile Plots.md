@@ -28,6 +28,13 @@ Q-Q plot comparing the distribution of heights of men and women 
 
 As you can see, the Q-Q plot is not a straight line. This indicates that the distribution of heights of men and women is not the same. The fact that the Q-Q plot slopes upwards indicates that the distribution of heights of men is more spread out than the distribution of heights of women.
 
+![1*_wuWDNGs3hB2K0_kgpoc1A](https://github.com/IshaanAdarsh/TIL/assets/100434702/fe3e4cd9-a78d-4976-8e50-8e98c3dba440)
+![1*XGMMcZdBxPTK5K_MW7jNVA](https://github.com/IshaanAdarsh/TIL/assets/100434702/fa9247fc-73b2-42be-b396-d9ffc6969872)
+![1*aiUmkCQ5451VQa1JYXQioA](https://github.com/IshaanAdarsh/TIL/assets/100434702/2855e06d-cd85-4fda-856e-fc2e4326cc44)
+![1*Z50lOJN5MGeWfH4h82Br_g](https://github.com/IshaanAdarsh/TIL/assets/100434702/a9c3bedf-f1bb-414c-abb4-4ba214cbefab)
+![1*-XKT7Xx0-BaxB2mLnq5b3A](https://github.com/IshaanAdarsh/TIL/assets/100434702/6f006516-3ecb-44d2-8e35-f9c0d7813e49)
+
+
 Applications
 ------------
 
