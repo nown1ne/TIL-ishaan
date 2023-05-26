@@ -1,23 +1,23 @@
 # [Data Types in Statistics](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee)
 
-Nominal Data
-============
+# Data Types:
+![1_dvvxoZTdewLFs3RyZTJreA](https://github.com/IshaanAdarsh/TIL/assets/100434702/b3b077e7-5cfa-4028-99bf-53dfc9cbc0b5)
 
-Nominal data is the most basic type of data. It is used to classify objects or events into categories. For example, the colors of the rainbow are nominal data. Each color is a distinct category, and there is no order or ranking between them.
+# Categorical  Data:
+Categorical data refers to data that represents characteristics or attributes rather than numerical values. It is used to classify or group data into specific categories or labels. Categorical data can take various forms:
 
-Ordinal Data
-============
+## Nominal Data
+- Nominal data is the most basic type of data. It is used to classify objects or events into categories. For example, the colors of the rainbow are nominal data. Each color is a distinct category, and there is no order or ranking between them.
 
+## Ordinal Data
 Ordinal data is similar to nominal data, but it has an order or ranking. For example, the grades of students in a class are ordinal data. The grades can be ordered from highest to lowest, but there is no equal interval between them.
 
-Discrete Data
-=============
+# Numerical Data:
 
+## Discrete Data
 Discrete data is data that can be counted. For example, the number of students in a class is discrete data. There are a finite number of possible values for the number of students, and the values can only be integers.
 
-Continuous Data
-===============
-
+## Continuous Data
 Continuous data is data that can be measured. For example, the height of students in a class is continuous data. There are an infinite number of possible values for the height of students, and the values can be any real number.
 
 Statistical Methods for Nominal, Ordinal and Continuous Data Types
