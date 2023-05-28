@@ -1,1 +1,1 @@
-# [Course](https://amigoscode.com/p/postgres)
+# [Course Link](https://amigoscode.com/p/postgres)
