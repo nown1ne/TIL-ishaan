@@ -34,3 +34,8 @@ training set ---> learning algorithm ---> f model(function/hypothesis)
 ```
 Univariate Linear Regression: 
 - f = wx + b
+  - w,b are parameters which define the straight line
+
+## Cost Funtion:
+<img width="1381" alt="Cost Function" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/ac8fd909-15ec-4e78-93f1-2060d078fc25">
+
