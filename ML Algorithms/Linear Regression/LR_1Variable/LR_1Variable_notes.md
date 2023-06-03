@@ -58,7 +58,21 @@ Univariate Linear Regression:
 <img width="1380" alt="Min_contour" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6e8fb111-792e-4021-ba73-50aa2d934740">
 
 ## Gradient Descent:
-Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. The idea is to take repeated steps in the opposite direction of the gradient of the function at the current point, because this is the direction of **steepest descent**.
+- Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. The idea is to take repeated steps in the opposite direction of the gradient of the function at the current point, because this is the direction of **steepest descent**.
+- α is the Learning Rate of the 
 - Simultaneous Update Process:
   - First update temp_w and temp_b, then assign them to their new values
 <img width="611" alt="Simultanious_Upd" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/c5067099-3367-4ae9-9d5d-1215d9b18c49">
+
+### Why is the derivative taken:
+- To make sure the direction taken is correct
+
+![Slope](https://github.com/IshaanAdarsh/TIL/assets/100434702/178b0be5-7b6c-445f-857a-633e1bcd3595)
+
+### Choosing α (Learning Rate):
+- If Learning Rate is to small
+  - Gradient will be very slow and will take a long time
+- If Learning Rate is to high
+  - Gradient will either overshoot or else fail to converge
+<img width="1380" alt="Reason_α" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6512435d-2b70-4f96-8b07-7e0918bdbee0">
+
