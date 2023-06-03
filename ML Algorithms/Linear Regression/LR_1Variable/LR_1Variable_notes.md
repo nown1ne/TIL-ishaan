@@ -56,3 +56,9 @@ Univariate Linear Regression:
   - The points on the J plot on a same circle, represent the same J (but fifferent Lines)
   - The minimum(almost) J is for the centre of the innermost Circle
 <img width="1380" alt="Min_contour" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6e8fb111-792e-4021-ba73-50aa2d934740">
+
+## Gradient Descent:
+Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. The idea is to take repeated steps in the opposite direction of the gradient of the function at the current point, because this is the direction of **steepest descent**.
+- Simultaneous Update Process:
+  - First update temp_w and temp_b, then assign them to their new values
+<img width="611" alt="Simultanious_Upd" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/c5067099-3367-4ae9-9d5d-1215d9b18c49">
