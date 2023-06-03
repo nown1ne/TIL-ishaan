@@ -48,3 +48,11 @@ Univariate Linear Regression:
   - for every different w, we get. a different point in J
     - We need to find the minimum J for the ideal linear regression case
 <img width="1380" alt="Simplified_LR" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/63f23bbc-8a4a-4b8e-88b3-61f91e873df8">
+
+### Complex Cost function:
+- J is a 3-D plane, and we need to find the valley in this to get best value of b,w to minimize J and get the ideal result
+#### Contour Plots:
+- A contour plot is a graphical technique for representing a 3-dimensional surface by plotting constant z slices, called contours, on a 2-dimensional format
+  - The points on the J plot on a same circle, represent the same J (but fifferent Lines)
+  - The minimum J is for the innermost Circle
+<img width="1380" alt="Min_contour" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6e8fb111-792e-4021-ba73-50aa2d934740">
