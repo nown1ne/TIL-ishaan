@@ -38,4 +38,13 @@ Univariate Linear Regression:
 
 ## Cost Funtion:
 <img width="1381" alt="Cost Function" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/ac8fd909-15ec-4e78-93f1-2060d078fc25">
+- Aim is to minimize J(w,b) for values of w and b
 
+### Simplified Cost Function:
+- We set b=0, then f = wx
+  - f -> function of x
+  - J -> function of w
+- In the Exmaple below we see the different J for different w
+  - for every different w, we get. a different point in J
+    - We need to find the minimum J for the ideal linear regression case
+<img width="1380" alt="Simplified_LR" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/63f23bbc-8a4a-4b8e-88b3-61f91e873df8">
