@@ -76,3 +76,8 @@ Univariate Linear Regression:
   - Gradient will either overshoot or else fail to converge
 <img width="1380" alt="Reason_α" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6512435d-2b70-4f96-8b07-7e0918bdbee0">
 
+- We don't need to update Learning Rate continuously as the derivative handles this for us as
+  - Near a local minimum,
+    - Derivative becomes smaller
+    - Update steps become smaller
+  - Can reach minimum without decreasing learning rate
