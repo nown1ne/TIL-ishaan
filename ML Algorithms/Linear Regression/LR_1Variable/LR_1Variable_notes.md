@@ -81,3 +81,6 @@ Univariate Linear Regression:
     - Derivative becomes smaller
     - Update steps become smaller
   - Can reach minimum without decreasing learning rate
+
+<img width="1278" alt="Gradient_LR" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/cebc9cbd-d353-45ab-b51e-a9b28f5549d6">
+
