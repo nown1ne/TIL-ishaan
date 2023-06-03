@@ -1,4 +1,4 @@
-# Linear Regression:
+# Linear Regression: 
 ## Regression vs Classification: 
 Understanding what the overall process of supervised learing.
 - Data has the `right answers`.
@@ -83,4 +83,5 @@ Univariate Linear Regression:
   - Can reach minimum without decreasing learning rate
 
 <img width="1278" alt="Gradient_LR" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/cebc9cbd-d353-45ab-b51e-a9b28f5549d6">
+
 
