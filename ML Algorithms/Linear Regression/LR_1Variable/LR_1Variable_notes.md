@@ -1,5 +1,5 @@
 # Linear Regression:
-## Regression vs Classification:
+## Regression vs Classification: 
 Understanding what the overall process of supervised learing.
 - Data has the `right answers`.
 - Types of Models: 
