@@ -54,5 +54,5 @@ Univariate Linear Regression:
 #### Contour Plots:
 - A contour plot is a graphical technique for representing a 3-dimensional surface by plotting constant z slices, called contours, on a 2-dimensional format
   - The points on the J plot on a same circle, represent the same J (but fifferent Lines)
-  - The minimum J is for the innermost Circle
+  - The minimum(almost) J is for the centre of the innermost Circle
 <img width="1380" alt="Min_contour" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/6e8fb111-792e-4021-ba73-50aa2d934740">
