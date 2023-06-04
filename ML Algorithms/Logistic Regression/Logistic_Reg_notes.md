@@ -34,3 +34,15 @@ Types of Decision Boundary:
 
  - Non-Linear Decision Boundary:
 <img width="1298" alt="Non-Linear" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/4e1880d3-2178-42ca-86dc-dd229462afa9">
+
+## Cost Function for Logistic Regression:
+### Complex Cost Funtion:
+<img width="1293" alt="Training_Set" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/93a91134-f0f4-408b-8043-3b1e114181fb">
+<img width="1269" alt="LR_not working" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/08a20005-06d8-49cc-99da-d76e3da44e8d">
+<img width="1318" alt="Improved Cost function" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/5fdbae55-868b-4d7e-977c-386e38e5e87b">
+<img width="1315" alt="Explainaition" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/55e1369b-36c7-499b-8d23-5fe0fe550206">
+<img width="1317" alt="Summary_Cost_Funct" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/c0816672-44da-417a-9fdf-6b598237cfed">
+
+### Simplified Cost Function:
+<img width="1318" alt="Loss_Func" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/ae19e301-3f93-4e65-8d8a-3bbc1a326892">
+<img width="1301" alt="Cost_Funct" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/eccc04ea-2e51-4a01-bae9-4d8691532cee">
