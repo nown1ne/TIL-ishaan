@@ -46,3 +46,8 @@ Types of Decision Boundary:
 ### Simplified Cost Function:
 <img width="1318" alt="Loss_Func" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/ae19e301-3f93-4e65-8d8a-3bbc1a326892">
 <img width="1301" alt="Cost_Funct" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/eccc04ea-2e51-4a01-bae9-4d8691532cee">
+
+## Gradient Descent:
+- Very Similar to Linear Regression
+<img width="1317" alt="Grad_Des" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/c8d8fa1e-9e9b-43e2-add0-fc142a1eb950">
+<img width="1288" alt="Compare_Grad_Des" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/9a426337-0f8d-4834-be84-9dbb7d1e520a">
