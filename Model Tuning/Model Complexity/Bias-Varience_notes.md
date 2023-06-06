@@ -2,6 +2,17 @@
 ## Bias:
 - Bias is the difference between the average prediction of our model and the correct target value which model is trying to predict.
 - The inability for a machine learning method to capture the true relationship is called bias.
+
+- The Straight Line has relatively high bias, since it can not capture the curve in the relationship between weight and height.
+- The Squiggly Line has low bias, since it is flexible and can adapt to the curve in the relationship between weight and hight.
+
+## Variance:
+- The difference in fits between data sets is
+called Variance.
+
+- The Squiggly Line has high variance so its performance might do well sometimes, and other times it might do terribly.
+- The Straight Line has relatively low variance, because the Sums of Squares are very similar for different datasets.
+
 ## Example Data Set:
 We measured the weight and height of a bunch of mice and plotted the data on a graph
 <img width="467" alt="Data_SET" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/120bd2ec-aaa7-4d63-b44c-49336bfe1418">
@@ -24,3 +35,13 @@ We measured the weight and height of a bunch of mice and plotted the data on a g
 ### Squiggly Line:
 - Squiggly line can handle arc in the true relationship between wt and height , very little bias.
 <img width="461" alt="Sqiggly_line" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/0ef4dc85-387c-4e63-babd-0b3d586a90f4">
+
+#### Square sum analysis for Training Data:
+<img width="871" alt="Sq analysis" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/e746b276-7f5d-4843-b68a-8a17c875472d">
+- for squiggly sum = 0
+- for straight line sum != 0
+
+#### Square sum analysis for Testing Data:
+<img width="863" alt="Testing Data" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/22f19bf2-5bde-4a09-a520-6d2778ae2e42">
+- in this case straight line fits better than squiggly.
+- The Squiggly Line has high variability, because it results in vastly different Sums of Squares for different datasets.
