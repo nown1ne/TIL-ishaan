@@ -1,4 +1,5 @@
 # [YT Videos](https://www.youtube.com/watch?v=EuBBz3bI-aA)
+# [Blog](https://medium.com/@itbodhi/bias-and-variance-trade-off-542b57ac7ff4)
 ## In Machine Learning, when we want to optimise model prediction, it is very important to understand the parameters which describe prediction errors and accuracy .
 ## Bias:
 - Bias is the difference between the average prediction of our model and the correct target value which model is trying to predict.Bias is inherent to the algorithm we choose to make the Model. A biased model is one that makes incorrect assumptions about the dataset to make the target function easier to learn.
@@ -73,10 +74,17 @@ complicated models are:
   - Boosting
   - Bagging
 
-### There is inverse relationship between bias and variance in machine learning.
-#### Increasing the bias will decrease the variance.
-#### Increasing the variance will decrease the bias.
 - High Model Complexity : High Variance , Low Bias
 - Low Model Complexity : High Bias , Low Variance
 
-## 
+## Tradeoff:
+- There is inverse relationship between bias and variance in machine learning.
+  - Increasing the bias will decrease the variance.
+  - Increasing the variance will decrease the bias.
+
+![Tradeoff](https://github.com/IshaanAdarsh/TIL/assets/100434702/365d5f3e-74e5-49c0-9be7-2e98a52a9393)
+
+## Bullseye:
+
+![Bullseye](https://github.com/IshaanAdarsh/TIL/assets/100434702/6e5049f4-b17e-4de3-99ca-7ca045726e2b)
+
