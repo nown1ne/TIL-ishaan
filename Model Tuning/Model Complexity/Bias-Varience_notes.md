@@ -3,6 +3,7 @@
 - Bias is the difference between the average prediction of our model and the correct target value which model is trying to predict.
 - The inability for a machine learning method to capture the true relationship is called bias.
 
+#### Examples:
 - The Straight Line has relatively high bias, since it can not capture the curve in the relationship between weight and height.
 - The Squiggly Line has low bias, since it is flexible and can adapt to the curve in the relationship between weight and hight.
 
@@ -10,6 +11,7 @@
 - The difference in fits between data sets is
 called Variance.
 
+#### Examples:
 - The Squiggly Line has high variance so its performance might do well sometimes, and other times it might do terribly.
 - The Straight Line has relatively low variance, because the Sums of Squares are very similar for different datasets.
 
