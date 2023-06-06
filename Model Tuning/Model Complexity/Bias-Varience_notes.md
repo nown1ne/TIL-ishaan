@@ -1,16 +1,24 @@
 # [YT Videos](https://www.youtube.com/watch?v=EuBBz3bI-aA)
+## In Machine Learning, when we want to optimise model prediction, it is very important to understand the parameters which describe prediction errors and accuracy .
 ## Bias:
-- Bias is the difference between the average prediction of our model and the correct target value which model is trying to predict.
+- Bias is the difference between the average prediction of our model and the correct target value which model is trying to predict.Bias is inherent to the algorithm we choose to make the Model. A biased model is one that makes incorrect assumptions about the dataset to make the target function easier to learn.
 - The inability for a machine learning method to capture the true relationship is called bias.
+  - Low Bias is desired : High Bias means UnderFitting of the model on training data.
+
+  - Low Bias : Suggests less assumptions about the relation in data to predict the target function. Example: SVM, Decision Tree, KNN
+  - High-Bias : Suggests more assumptions about the relation in data to predict the target function. Example: Linear Regression, Logistic Regression
 
 #### Examples:
 - The Straight Line has relatively high bias, since it can not capture the curve in the relationship between weight and height.
 - The Squiggly Line has low bias, since it is flexible and can adapt to the curve in the relationship between weight and hight.
 
 ## Variance:
-- The difference in fits between data sets is
-called Variance.
+- Variance is the amount that the estimate of the target function will change if different training data was used. Variance is error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended result.
+- The difference in fits between data sets is called Variance.
+- Low Variance is desired : High Variance means OverFitting of the model on training data.
 
+  - Low Variance: Small changes to the estimate of the target function with changes to the training dataset. Example: Linear Regression, Logistic Regression
+  - High Variance: Large changes to the estimate of the target function with changes to the training dataset.Example: SVM, Decision Tree, KNN
 #### Examples:
 - The Squiggly Line has high variance so its performance might do well sometimes, and other times it might do terribly.
 - The Straight Line has relatively low variance, because the Sums of Squares are very similar for different datasets.
@@ -64,3 +72,11 @@ complicated models are:
   - Regularisation 
   - Boosting
   - Bagging
+
+### There is inverse relationship between bias and variance in machine learning.
+#### Increasing the bias will decrease the variance.
+#### Increasing the variance will decrease the bias.
+- High Model Complexity : High Variance , Low Bias
+- Low Model Complexity : High Bias , Low Variance
+
+## 
