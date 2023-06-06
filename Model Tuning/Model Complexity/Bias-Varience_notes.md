@@ -17,7 +17,9 @@ called Variance.
 
 ## Example Data Set:
 We measured the weight and height of a bunch of mice and plotted the data on a graph
+
 <img width="467" alt="Data_SET" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/120bd2ec-aaa7-4d63-b44c-49336bfe1418">
+
 ### Inferences:
   - Light Mice tend to be Short
   - Heavier Mice tend to be taller but after a certain height, mice don't get any taller, just more obese.
@@ -28,22 +30,28 @@ We measured the weight and height of a bunch of mice and plotted the data on a g
 
 <img width="469" alt="Training_Testing" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/24a6627f-ac41-46c3-bc90-90225e7cbe52">
 
-## We would know the exact mathematical formula that describes relationship between weight and height, so we're going to use two machine learning methods:
+**We would know the exact mathematical formula that describes relationship between weight and height, so we're going to use two machine learning methods**
 
 ### Linear Regression:
 - LR fits a stright line to the data, but that doesn't have the flexibilty of to replicate the true relationship(arc) it has higher bias.
+
 <img width="524" alt="Straight_line" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/ccaa9c77-9d96-4415-9d66-58b9e0fe6109">
 
 ### Squiggly Line:
 - Squiggly line can handle arc in the true relationship between wt and height , very little bias.
+
 <img width="461" alt="Sqiggly_line" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/0ef4dc85-387c-4e63-babd-0b3d586a90f4">
 
 #### Square sum analysis for Training Data:
+
 <img width="871" alt="Sq analysis" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/e746b276-7f5d-4843-b68a-8a17c875472d">
+
 - for squiggly sum = 0
 - for straight line sum != 0
 
 #### Square sum analysis for Testing Data:
+
 <img width="863" alt="Testing Data" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/22f19bf2-5bde-4a09-a520-6d2778ae2e42">
+
 - in this case straight line fits better than squiggly.
 - The Squiggly Line has high variability, because it results in vastly different Sums of Squares for different datasets.
