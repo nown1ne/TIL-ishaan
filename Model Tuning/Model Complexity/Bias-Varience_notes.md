@@ -55,3 +55,12 @@ We measured the weight and height of a bunch of mice and plotted the data on a g
 
 - in this case straight line fits better than squiggly.
 - The Squiggly Line has high variability, because it results in vastly different Sums of Squares for different datasets.
+
+### Overfit:
+Because the Squiggly Line fits the training set really well, but not the testing set, we say the sqiggly line is an Overfit
+
+- Three commonly used methods for finding the sweet spot between simple and
+complicated models are:
+  - Regularisation 
+  - Boosting
+  - Bagging
