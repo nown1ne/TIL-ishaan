@@ -20,3 +20,9 @@
 - Reduce the size of parameters 𝑤𝑗, in exluding features you outright remove the 𝑤𝑗 but by reducing them the curve can be more drfined and fit the training data.
 
 <img width="755" alt="Regularization_Intuition" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/bdf6c90c-ecfc-489c-833c-74c806308f8e">
+
+### Cost Funtion for Regularization:
+<img width="725" alt="Cost_Function" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/97225f85-0621-4b65-ad0a-566d5e6484cb">
+- Lambda = 0 -> Overfit
+- Lambda = Large -> Underfit
+ 
