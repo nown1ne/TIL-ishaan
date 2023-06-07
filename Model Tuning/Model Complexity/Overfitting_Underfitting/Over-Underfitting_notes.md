@@ -23,6 +23,16 @@
 
 ### Cost Funtion for Regularization:
 <img width="725" alt="Cost_Function" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/97225f85-0621-4b65-ad0a-566d5e6484cb">
+
 - Lambda = 0 -> Overfit
 - Lambda = Large -> Underfit
  
+### Gradient Descent:
+<img width="505" alt="Grad_Descent" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/cf4f18f4-a505-4dae-b92f-717cfc2b0f60">
+
+# Regularised Logistic Regression: 
+## Cost Function: 
+<img width="718" alt="Cost_Logistic" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/9ca4d91f-5e34-4df9-b043-cff151cac560">
+
+## Gradient Descent:
+<img width="711" alt="Grad_desc_Logistic" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/455c8046-8453-42a8-9519-5d11becf31a2">
