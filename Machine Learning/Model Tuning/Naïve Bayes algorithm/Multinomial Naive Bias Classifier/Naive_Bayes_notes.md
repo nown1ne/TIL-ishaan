@@ -5,9 +5,13 @@
   - Regular Messages:
     - Make Histogram of all the words that occur in regular messages, we use this to calculate the probabilities of seeing each word  and then classfiy them as regular mail
 
+
 #### Likelihood: 
 Probablilites calculated of discrete, individual words, and not the probability of something continuous, like weight and height, these are called likelihoods
 
+<img width="548" alt="pro_like" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/85843c1f-ac2b-4d56-b5f2-4f22cdbdb3a4">
+
+## Procedure:
 
 <img width="835" alt="Screenshot 2023-06-12 at 9 08 49 PM" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/c225fba0-65ef-4696-b11c-e14818c3e6bf">
 <img width="866" alt="Screenshot 2023-06-12 at 9 09 03 PM" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/7eec6963-0fac-42da-81f9-1dd250282d9f">
