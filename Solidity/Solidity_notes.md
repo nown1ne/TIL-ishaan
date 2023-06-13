@@ -70,14 +70,15 @@ contract Counter{
 pragma solidity ^0.8.0;
 
 contract Counter {
-    uint256 count;
+    uint256 public count ;      //makes getcount redundant, as this displays count 
 
     constructor() public {      // No arguments, public so we can call the contructor when contract is initialised 
         count = 0;              // Set count to default value
     }
-    function getCount() public view returns (uint256) {
-        return count;
-    }
+    
+    // function getCount() public view returns (uint256) {
+    //     return count;
+    // }
 
     function incrementCount() public {
         count++;
@@ -85,7 +86,22 @@ contract Counter {
 }
 ```
 
-## Transaction for above funtion``
+### Initialization of Variables:
+```solidity
+pragma solidity ^0.8.0;
+
+contract Counter {
+    uint256 public count = 0;      // Sets count to 0 and makes constructor redundant
+
+    function incrementCount() public {
+        count++;
+    }
+}
+```
+
+## Transaction for above funtion
+```
+Address             0xa131AD247055FD2e2aA8b156A11bdEc81b9eAD95
 status	            true Transaction mined and execution succeed
 transaction hash	0xea13a25019fc29ae76ba4a4d5b2be1a7f1686aaf59688e26e1c7af8e375d0550
 from	            0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
