@@ -6,7 +6,7 @@
 
 ## Syntax:
 - Use Captial Letter for Samrt Contract File name: `Counter.sol`
-- .sol is the extension used in solidity langauge:
+- `.sol` is the extension used in solidity langauge:
 
 ### Pragma:
 - pragma helps you tell the computer which version of Solidity you want to use for your smart contract.
