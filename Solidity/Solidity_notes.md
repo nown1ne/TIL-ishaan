@@ -44,6 +44,10 @@ contract Counter{
     function getCount() public {      // Public specifies that we can call this function outside the smart contract
         return count;
     }
+    
+    function getCount() internal {      // Internal specifies that we can call this function only inside the smart contract
+        return count;
+    }
 
 }
 ```
