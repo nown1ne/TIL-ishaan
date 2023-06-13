@@ -3,6 +3,8 @@
 # Gaussian Naive Bayes:
 Gaussian Naive Bayes is a popular classification algorithm based on the Bayes' theorem, which assumes that the features are conditionally independent given the class label. It is commonly used for solving classification problems with continuous or real-valued features. Here's a detailed explanation of Gaussian Naive Bayes along with a visual example using code snippets.
 
+<img width="1390" alt="Screenshot 2023-06-13 at 12 05 23 PM" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/343ca3b8-ff34-4dd1-9504-bda5e032afd8">
+
 1. Algorithm Overview:
    - Gaussian Naive Bayes calculates the probability of each class label given the input features and then assigns the label with the highest probability as the predicted class.
    - It assumes that the features follow a Gaussian (normal) distribution within each class.
