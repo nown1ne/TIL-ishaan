@@ -20,6 +20,44 @@
 #### Margin:
 - The shortest distance between the observations and the threshold is called margin.
 
-# Support Vector Machines (SVM):
-- 
+### Soft Margin:
+- When we allow misclassifications the distance between the distance and the observations is called a **Soft Margin**.
+- We pick a threshold which is less sensetive to training data and allowed missclassifications(high bias) but performed better for new data (low variance)
 
+<img width="560" alt="Soft Margin" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/1b6042ca-c427-45a7-b680-6a12362f129f">
+
+#### How to choose soft margin:
+-  We used **Cross Validation** to detemine how many miss-classifications and observations to allow inside of the **Soft Margin** to get best classification.
+
+## Support Vector Classifiers:
+### 1-D Data:
+- When we use a **soft margin** to detemine the location of a threshold then we are using a **Soft Margin Classifier** aka **Support Vector Classifier** to classify observations.
+
+<img width="606" alt="SVC" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/931295a1-284e-4a1a-9e56-64083f2f42d2">
+
+### 2-D Data:
+- When the Data is 2-D, the Support Vector Classifier is a **stright line**. We use **Cross-Validations** to determine the best fit.
+
+<img width="529" alt="2-D SVC" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/8ed33a1a-9e9d-45f2-9aaa-9f6798e6f817">
+
+- Similarly for **3-D Data** the Support Vector Classifier is a **Plane**.
+
+<img width="1409" alt="3-D SVM" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/0b17dbd0-e2cb-46e5-91c2-63392ed3dcef">
+
+# Support Vector Machines (SVM):
+- The SVC's can classify the new data properly:
+- Drug Dosages work only if the amount is just right
+<img width="815" alt="New_Dataset" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/7ecdbce7-dafb-4a1d-907d-11e914ccd89c">
+
+## Prodedure:
+- We start with a lower dimension data set
+- We add a y-axis so we can draw a graph (Move data to higher dimension)
+- Y-axis values = (dosages)^2
+
+<img width="1106" alt="^2" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/1a1b134e-c8f5-4103-a9b7-a9fb1a39b765">
+
+- Find a Support Vector Classifier which seprates the higher dimension data into 3 parts
+<img width="1133" alt="SVM" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/09893ea6-9d2b-4fdf-b738-8a8b89a6e2ff">
+
+## Kernel Functions:
+- In order to make the mathematics possible, Support Vector Machines use something called Kernel Functions to systematically find Support Vector Classifiers
