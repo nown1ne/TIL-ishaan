@@ -76,4 +76,4 @@ For the given Data set we used r = 1/2 and d = 2
 #### Relationship between 2 variables:
 - We just simply substitute the values and the value obtained is the 2-D relationship (we did this without converting the value into 2-D data(BAM))
 
-### Radius Kernel:
+### Radial Kernel:
