@@ -73,7 +73,19 @@
 For the given Data set we used r = 1/2 and d = 2
 <img width="1074" alt="Example" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/a2a0da56-3f74-4f01-a2f7-9bc4d7ec203e">
 
+- When r = 0 the dot product leave the variables in the same dimension 
+
 #### Relationship between 2 variables:
 - We just simply substitute the values and the value obtained is the 2-D relationship (we did this without converting the value into 2-D data(BAM))
 
-### Radial Kernel:
+### Radial Kernel (or) RBF (Radial Basis Function):
+- It calculates high dimenstional relationships and it works in Infinite Dimensions 
+
+<img width="157" alt="Radial-kernel" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/86b71a01-a9a3-4b40-b233-0109a26c9202">
+
+- Beacause it finds SVC's in infinite dimensions its not possible to visualise it, but on a new observation the **Radial Kernal** behaves as a **Weighted Nearest Neighbour** Model
+  - The nearer observations have high influence on the new observation and the far away models have little influence
+
+- **a,b** refer to the two observations (doasage measurments in this case). This distance is then Squared.
+  - The Amount of Influence one observation has on another is a function of distance squared
+  - γ (Gamma) is determined by **Cross Validation** scales the squared distance
