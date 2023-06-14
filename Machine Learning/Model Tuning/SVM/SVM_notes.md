@@ -61,3 +61,19 @@
 
 ## Kernel Functions:
 - In order to make the mathematics possible, Support Vector Machines use something called Kernel Functions to systematically find Support Vector Classifiers
+
+### Polynomial Kernel:
+<img width="200" alt="Poly-Kernel" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/729c9446-d294-4155-be14-550dd381a3c0">
+
+- **a,b** refer to the two observations we want to calculate the higher dimensional relationship.
+- **r** determines the polynomial's coefficient 
+- **d** determines the degree of the polynomial
+  - r & d are determined by **Cross-Validation**
+
+For the given Data set we used r = 1/2 and d = 2
+<img width="1074" alt="Example" src="https://github.com/IshaanAdarsh/TIL/assets/100434702/a2a0da56-3f74-4f01-a2f7-9bc4d7ec203e">
+
+#### Relationship between 2 variables:
+- We just simply substitute the values and the value obtained is the 2-D relationship (we did this without converting the value into 2-D data(BAM))
+
+### Radius Kernel:
