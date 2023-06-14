@@ -9,7 +9,7 @@ pragma solidity ^0.8.0;
 
 contract Variables {
     // State Variables
-    int256 public myInt = 1;          // 256 bytes 
+    int256 public myInt = 1;          // 256 bytes (uint == uint256)
     uint256 public myUint256 = 1;
     uint8 public myUint8 = 1;         // 8 bytes 
     
