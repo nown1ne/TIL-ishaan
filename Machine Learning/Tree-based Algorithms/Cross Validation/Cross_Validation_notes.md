@@ -6,9 +6,11 @@
 
 ## Procedure:
 We need the data available to us to:
-- (Testing the Algorithm)We need to estimate the parameters for the machine-learning methods
+### Testing the Algorithm:
+- We need to estimate the parameters for the machine-learning methods
   - Reusing the same data for both training and testing is a bad idea because we need to know how the method will work on data it wasn't trained on.
-- (Training the Algorithm)Evaluate how well the machine learning methods work
+### Training the Algorithm:
+- Evaluate how well the machine learning methods work
 
 ## Types of Cross Validation:
 ### Four Fold Cross Validation:
